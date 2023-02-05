@@ -24,3 +24,32 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+
+// .container{
+//     width: 100%;
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+//     grid-template-columns: repeat(3,1fr);
+//     grid-template-rows: 1fr 2fr 1fr;
+//     grid-template-areas: "nav nav nav"
+//     "hero hero news"
+//     "blogs blogs blogs";
+// }
+
+// .navbar{
+//     grid-area: navbar;
+// }
+
+// .hero{
+//     grid-area: hero;
+// }
+
+// .new{
+//     grid-area: news;
+// }
+
+// .blogs{
+//     grid-area: blogs;
+// }
